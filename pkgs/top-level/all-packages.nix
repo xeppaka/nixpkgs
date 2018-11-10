@@ -22884,6 +22884,8 @@ with pkgs;
 
   mmark = callPackage ../tools/typesetting/mmark { };
 
+  sailfishsdk = callPackage ../development/mobile/sailfishos/sailfish-sdk { };
+
   wire-desktop = callPackage ../applications/networking/instant-messengers/wire-desktop { };
 
   teseq = callPackage ../applications/misc/teseq {  };
